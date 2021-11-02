@@ -27,4 +27,4 @@ app.get('/', (req, res) => {
     res.json(articles)
 })
 
-app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`))
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`))
